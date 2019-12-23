@@ -1,0 +1,113 @@
+particlesJS('particles-js',
+  
+{
+  "particles": {
+    "number": {
+      "value": 76,
+      "density": {
+        "enable": true,
+        "value_area": 1104.8590120982064
+      }
+    },
+    "color": {
+      "value": "#efff00"
+    },
+    "shape": {
+      "type": "polygon",
+      "stroke": {
+        "width": 1,
+        "color": "#ffffff"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "",
+        "width": -30,
+        "height": 0
+      }
+    },
+    "opacity": {
+      "value": 0.5768629870285943,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 10,
+        "opacity_min": 0.6086427267194161,
+        "sync": true
+      }
+    },
+    "size": {
+      "value": 4,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 24.345709068776642,
+        "size_min": 3.2460945425035526,
+        "sync": true
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 320.47943723810795,
+      "color": "#fcfce3",
+      "opacity": 0.34,
+      "width": 0.4807191558571619
+    },
+    "move": {
+      "enable": true,
+      "speed": 14.205330155548367,
+      "direction": "top-left",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": true,
+        "rotateX": 2209.718024196413,
+        "rotateY": 1736.2070190114673
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "window",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 121.72854534388323,
+        "line_linked": {
+          "opacity": 0.4192803176664997
+        }
+      },
+      "bubble": {
+        "distance": 133.90139987827155,
+        "size": 36.518563603164964,
+        "duration": 0.8115236356258881,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": false
+}
+);
